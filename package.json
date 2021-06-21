@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "pnpm-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "repro": "pnpm i && pnpm build --filter 'com.packages.common-package'"
+  },
+  "author": "",
+  "license": "ISC"
+}
