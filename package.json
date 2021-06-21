@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "pnpm": "5.18.9"
+  },
   "scripts": {
     "repro": "pnpm i && pnpm build --filter 'com.packages.common-package'"
   },
