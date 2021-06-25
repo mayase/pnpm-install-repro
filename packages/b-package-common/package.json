@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "b-package-common",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "ag-grid-community": "25.0.1",
+    "ag-grid-enterprise": "25.0.1",
+    "ag-grid-react": "25.0.1"
+  },
+  "devDependencies": {
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
+  }
+}
